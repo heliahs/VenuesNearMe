@@ -1,0 +1,20 @@
+com/hh/coffeevenues/BuildConfig.java
+ com.hh.coffeevenues.BuildConfig
+com/hh/coffeevenues/databinding/FirstPageBinding.java
+ com.hh.coffeevenues.databinding.FirstPageBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/hh/coffeevenues/DataBinderMapperImpl.java
+ com.hh.coffeevenues.DataBinderMapperImpl
+ com.hh.coffeevenues.DataBinderMapperImpl$InnerBrLookup
+ com.hh.coffeevenues.DataBinderMapperImpl$InnerLayoutIdLookup
+com/hh/coffeevenues/databinding/FirstPageBindingImpl.java
+ com.hh.coffeevenues.databinding.FirstPageBindingImpl
+com/hh/coffeevenues/BR.java
+ com.hh.coffeevenues.BR
+com/hh/coffeevenues/DataBindingTriggerClass.java
+ com.hh.coffeevenues.DataBindingTriggerClass
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
