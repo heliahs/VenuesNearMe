@@ -6,5 +6,19 @@
     <fragment
         android:id="@+id/firstPageFragment"
         android:name="com.hh.coffeevenues.ui.firstPape.FirstPageFragment"
-        android:label="FirstPageFragment" />
+        android:label="FirstPageFragment" >
+        <action
+            android:id="@+id/action_go_to_venues_list"
+            app:destination="@id/venuesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/venuesListFragment"
+        android:name="com.hh.coffeevenues.ui.vanuesList.VenuesListFragment"
+        android:label="VenuesListFragment">
+
+        <argument
+            android:name="location"
+            app:argType="string"
+            />
+    </fragment>
 </navigation>

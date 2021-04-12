@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_list.xml",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/item_list.xml"
+    },
+    {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/venues_fragment.xml",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/venues_fragment.xml"
+    },
+    {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/first_page.xml",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/first_page.xml"
     }

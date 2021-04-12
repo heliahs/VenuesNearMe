@@ -7,6 +7,8 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.hh.coffeevenues.databinding.FirstPageBindingImpl;
+import com.hh.coffeevenues.databinding.ItemListBindingImpl;
+import com.hh.coffeevenues.databinding.VenuesFragmentBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -16,14 +18,22 @@ import java.lang.String;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import javax.annotation.Generated;
 
+@Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FIRSTPAGE = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_ITEMLIST = 2;
+
+  private static final int LAYOUT_VENUESFRAGMENT = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.hh.coffeevenues.R.layout.first_page, LAYOUT_FIRSTPAGE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.hh.coffeevenues.R.layout.item_list, LAYOUT_ITEMLIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.hh.coffeevenues.R.layout.venues_fragment, LAYOUT_VENUESFRAGMENT);
   }
 
   @Override
@@ -40,6 +50,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FirstPageBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for first_page is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMLIST: {
+          if ("layout/item_list_0".equals(tag)) {
+            return new ItemListBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_list is invalid. Received: " + tag);
+        }
+        case  LAYOUT_VENUESFRAGMENT: {
+          if ("layout/venues_fragment_0".equals(tag)) {
+            return new VenuesFragmentBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for venues_fragment is invalid. Received: " + tag);
         }
       }
     }
@@ -86,18 +108,22 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(1);
+    static final SparseArray<String> sKeys = new SparseArray<String>(3);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "clickListener");
+      sKeys.put(2, "item");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/first_page_0", com.hh.coffeevenues.R.layout.first_page);
+      sKeys.put("layout/item_list_0", com.hh.coffeevenues.R.layout.item_list);
+      sKeys.put("layout/venues_fragment_0", com.hh.coffeevenues.R.layout.venues_fragment);
     }
   }
 }

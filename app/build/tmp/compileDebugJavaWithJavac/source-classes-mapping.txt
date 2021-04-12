@@ -1,20 +1,116 @@
-com/hh/coffeevenues/BuildConfig.java
- com.hh.coffeevenues.BuildConfig
+hilt_aggregated_deps/com_hh_coffeevenues_ui_vanuesList_VenuesListFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_hh_coffeevenues_ui_vanuesList_VenuesListFragment_GeneratedInjectorModuleDeps
+com/hh/coffeevenues/ui/vanuesList/VenuesListViewModel_HiltModule.java
+ com.hh.coffeevenues.ui.vanuesList.VenuesListViewModel_HiltModule
+hilt_aggregated_deps/com_hh_coffeevenues_ui_vanuesList_VenuesListViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.com_hh_coffeevenues_ui_vanuesList_VenuesListViewModel_HiltModuleModuleDeps
 com/hh/coffeevenues/databinding/FirstPageBinding.java
  com.hh.coffeevenues.databinding.FirstPageBinding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
+com/hh/coffeevenues/generated/callback/OnClickListener.java
+ com.hh.coffeevenues.generated.callback.OnClickListener
+ com.hh.coffeevenues.generated.callback.OnClickListener$Listener
 com/hh/coffeevenues/DataBinderMapperImpl.java
  com.hh.coffeevenues.DataBinderMapperImpl
  com.hh.coffeevenues.DataBinderMapperImpl$InnerBrLookup
  com.hh.coffeevenues.DataBinderMapperImpl$InnerLayoutIdLookup
 com/hh/coffeevenues/databinding/FirstPageBindingImpl.java
  com.hh.coffeevenues.databinding.FirstPageBindingImpl
-com/hh/coffeevenues/BR.java
- com.hh.coffeevenues.BR
-com/hh/coffeevenues/DataBindingTriggerClass.java
- com.hh.coffeevenues.DataBindingTriggerClass
+com/hh/coffeevenues/ui/vanuesList/VenuesListFragmentArgs.java
+ com.hh.coffeevenues.ui.vanuesList.VenuesListFragmentArgs
+ com.hh.coffeevenues.ui.vanuesList.VenuesListFragmentArgs$1
+ com.hh.coffeevenues.ui.vanuesList.VenuesListFragmentArgs$Builder
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
+hilt_aggregated_deps/com_hh_coffeevenues_di_AppModuleModuleDeps.java
+ hilt_aggregated_deps.com_hh_coffeevenues_di_AppModuleModuleDeps
+com/hh/coffeevenues/data/repositories/VenuesListRepository_Factory.java
+ com.hh.coffeevenues.data.repositories.VenuesListRepository_Factory
+com/hh/coffeevenues/BuildConfig.java
+ com.hh.coffeevenues.BuildConfig
+com/hh/coffeevenues/MyApplication_GeneratedInjector.java
+ com.hh.coffeevenues.MyApplication_GeneratedInjector
+com/hh/coffeevenues/Hilt_MainActivity.java
+ com.hh.coffeevenues.Hilt_MainActivity
+com/hh/coffeevenues/databinding/VenuesFragmentBinding.java
+ com.hh.coffeevenues.databinding.VenuesFragmentBinding
+com/hh/coffeevenues/ui/vanuesList/VenuesListViewModel_AssistedFactory_Factory.java
+ com.hh.coffeevenues.ui.vanuesList.VenuesListViewModel_AssistedFactory_Factory
+com/hh/coffeevenues/MainActivity_GeneratedInjector.java
+ com.hh.coffeevenues.MainActivity_GeneratedInjector
+com/hh/coffeevenues/di/AppModule_ProvideVenuesAPIFactory.java
+ com.hh.coffeevenues.di.AppModule_ProvideVenuesAPIFactory
+com/hh/coffeevenues/DaggerMyApplication_HiltComponents_ApplicationC.java
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$1
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$SwitchingProvider
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$ViewCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$Builder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCBuilder
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCImpl
+ com.hh.coffeevenues.DaggerMyApplication_HiltComponents_ApplicationC$SwitchingProvider
+com/hh/coffeevenues/DataBindingTriggerClass.java
+ com.hh.coffeevenues.DataBindingTriggerClass
+com/hh/coffeevenues/di/AppModule_ProvideRemoteDataSourceFactory.java
+ com.hh.coffeevenues.di.AppModule_ProvideRemoteDataSourceFactory
+ com.hh.coffeevenues.di.AppModule_ProvideRemoteDataSourceFactory$InstanceHolder
+com/hh/coffeevenues/databinding/ItemListBindingImpl.java
+ com.hh.coffeevenues.databinding.ItemListBindingImpl
+com/hh/coffeevenues/Hilt_MyApplication.java
+ com.hh.coffeevenues.Hilt_MyApplication
+ com.hh.coffeevenues.Hilt_MyApplication$1
+com/hh/coffeevenues/databinding/ItemListBinding.java
+ com.hh.coffeevenues.databinding.ItemListBinding
+com/hh/coffeevenues/ui/firstPape/FirstPageFragmentDirections.java
+ com.hh.coffeevenues.ui.firstPape.FirstPageFragmentDirections
+ com.hh.coffeevenues.ui.firstPape.FirstPageFragmentDirections$1
+ com.hh.coffeevenues.ui.firstPape.FirstPageFragmentDirections$ActionGoToVenuesList
+com/hh/coffeevenues/ui/vanuesList/VenuesListFragment_GeneratedInjector.java
+ com.hh.coffeevenues.ui.vanuesList.VenuesListFragment_GeneratedInjector
+com/hh/coffeevenues/MyApplication_HiltComponents.java
+ com.hh.coffeevenues.MyApplication_HiltComponents
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityC
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityCBuilderModule
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityRetainedC
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityRetainedC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$ActivityRetainedCBuilderModule
+ com.hh.coffeevenues.MyApplication_HiltComponents$ApplicationC
+ com.hh.coffeevenues.MyApplication_HiltComponents$FragmentC
+ com.hh.coffeevenues.MyApplication_HiltComponents$FragmentC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$FragmentCBuilderModule
+ com.hh.coffeevenues.MyApplication_HiltComponents$ServiceC
+ com.hh.coffeevenues.MyApplication_HiltComponents$ServiceC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$ServiceCBuilderModule
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewC
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewCBuilderModule
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewWithFragmentC
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewWithFragmentC$Builder
+ com.hh.coffeevenues.MyApplication_HiltComponents$ViewWithFragmentCBuilderModule
+com/hh/coffeevenues/ui/vanuesList/VenuesListViewModel_AssistedFactory.java
+ com.hh.coffeevenues.ui.vanuesList.VenuesListViewModel_AssistedFactory
+com/hh/coffeevenues/di/AppModule_ProvideVenuesListRepositoryFactory.java
+ com.hh.coffeevenues.di.AppModule_ProvideVenuesListRepositoryFactory
+com/hh/coffeevenues/BR.java
+ com.hh.coffeevenues.BR
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
+hilt_aggregated_deps/com_hh_coffeevenues_MyApplication_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_hh_coffeevenues_MyApplication_GeneratedInjectorModuleDeps
+hilt_aggregated_deps/com_hh_coffeevenues_MainActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_hh_coffeevenues_MainActivity_GeneratedInjectorModuleDeps
+com/hh/coffeevenues/ui/vanuesList/Hilt_VenuesListFragment.java
+ com.hh.coffeevenues.ui.vanuesList.Hilt_VenuesListFragment
+com/hh/coffeevenues/databinding/VenuesFragmentBindingImpl.java
+ com.hh.coffeevenues.databinding.VenuesFragmentBindingImpl

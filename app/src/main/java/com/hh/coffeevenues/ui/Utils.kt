@@ -4,9 +4,11 @@ import android.Manifest
 import android.app.Activity
 import android.content.Context
 import android.content.pm.PackageManager
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
+import com.hh.coffeevenues.data.Resource
 
 fun Context.hasPermission(permission: String): Boolean {
 
@@ -33,3 +35,26 @@ fun Fragment.requestPermissionWithRationale(
         requestPermissions(arrayOf(permission), requestCode)
     }
 }
+
+fun Fragment.handleApiError(
+    failure: Resource.Failure
+) {
+    when {
+        //@todo add retry with snackbar
+        failure.isNetworkError -> {
+            Toast.makeText(
+                requireContext(),
+                "Please check your internet connection",
+                Toast.LENGTH_LONG
+            ).show()
+        }
+
+        else -> {
+            val error = failure.errorBody?.string().toString()
+            Toast.makeText(requireContext(), error, Toast.LENGTH_LONG).show()
+
+        }
+    }
+}
+
+

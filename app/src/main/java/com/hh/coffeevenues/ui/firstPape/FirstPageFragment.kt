@@ -15,6 +15,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationServices
@@ -30,7 +31,7 @@ import com.hh.coffeevenues.ui.hasPermission
 import com.hh.coffeevenues.ui.requestPermissionWithRationale
 
 
-class FirstPageFragment : Fragment(){
+class FirstPageFragment : Fragment() {
 
     lateinit var binding: FirstPageBinding
     private val fusedLocationClient: FusedLocationProviderClient by lazy {
@@ -52,6 +53,12 @@ class FirstPageFragment : Fragment(){
             )
         }
     }
+
+    override fun onStop() {
+        super.onStop()
+        cancellationTokenSource.cancel()
+
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -69,19 +76,18 @@ class FirstPageFragment : Fragment(){
         super.onViewCreated(view, savedInstanceState)
         locationRequest()
     }
+
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<String>,
         grantResults: IntArray
     ) {
-        //Log.d(TAG, "onRequestPermissionResult()")
+
 
         if (requestCode == REQUEST_FINE_LOCATION_PERMISSIONS_REQUEST_CODE) {
             when {
                 grantResults.isEmpty() ->
-                    // If user interaction was interrupted, the permission request
-                    // is cancelled and you receive an empty array.
-                   Log.d("", "User interaction was cancelled.")
+                    Log.d("FirstFragment", "User interaction was cancelled.")
 
                 grantResults[0] == PackageManager.PERMISSION_GRANTED ->
                     Snackbar.make(
@@ -116,20 +122,21 @@ class FirstPageFragment : Fragment(){
         }
     }
 
-fun getLocation(){
-    val permissionApproved =
-        requireActivity().hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)
+    fun getLocation() {
+        val permissionApproved =
+            requireActivity().hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)
 
-    if (permissionApproved) {
-        requestCurrentLocation()
-    } else {
-        requestPermissionWithRationale(
-            Manifest.permission.ACCESS_FINE_LOCATION,
-            REQUEST_FINE_LOCATION_PERMISSIONS_REQUEST_CODE,
-            fineLocationRationalSnackbar
-        )
+        if (permissionApproved) {
+            requestCurrentLocation()
+        } else {
+            requestPermissionWithRationale(
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                REQUEST_FINE_LOCATION_PERMISSIONS_REQUEST_CODE,
+                fineLocationRationalSnackbar
+            )
+        }
     }
-}
+
     fun locationRequest() {
         Log.d(TAG, "locationRequestOnClick()")
 
@@ -160,15 +167,18 @@ fun getLocation(){
             currentLocationTask.addOnCompleteListener { task: Task<Location> ->
                 val result = if (task.isSuccessful && task.result != null) {
                     val result: Location = task.result
-                    "Location (success): ${result.latitude}, ${result.longitude}"
+                    "${result.latitude},${result.longitude}"
                 } else {
                     val exception = task.exception
                     "Location (failure): $exception"
                 }
 
                 Log.d(TAG, "getCurrentLocation() result: $result")
-                Log.d("myresult",result)
-               // logOutputToScreen(result)
+                Log.d("myresult", result)
+
+                this.findNavController()
+                    .navigate(FirstPageFragmentDirections.actionGoToVenuesList(result))
+                // logOutputToScreen(result)
             }
         }
     }

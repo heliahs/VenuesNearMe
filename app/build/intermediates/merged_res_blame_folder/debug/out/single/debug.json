@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/layout_venues_fragment.xml.flat",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/venues_fragment.xml"
+    },
+    {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -16,24 +20,36 @@
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/layout_item_list.xml.flat",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/item_list.xml"
+    },
+    {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/navigation_navigation.xml.flat",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/navigation/navigation.xml"
+    },
+    {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/drawable_loading_img.xml.flat",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/drawable/loading_img.xml"
     },
     {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/layout_first_page.xml.flat",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/first_page.xml"
     },
     {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/drawable_loading_animation.xml.flat",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/drawable/loading_animation.xml"
+    },
+    {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/KK/Desktop/Coffeevenues/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/KK/Desktop/Coffeevenues/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

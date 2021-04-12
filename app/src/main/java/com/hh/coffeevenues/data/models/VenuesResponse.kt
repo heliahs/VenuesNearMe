@@ -1,4 +1,7 @@
 package com.hh.coffeevenues.data.models
 
-class VenuesResponse {
-}
+data class VenuesResponse(
+    val meta: Meta,
+    val response: Response
+)
+

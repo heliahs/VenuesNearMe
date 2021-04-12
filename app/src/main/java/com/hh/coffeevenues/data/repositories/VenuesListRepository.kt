@@ -11,7 +11,9 @@ class VenuesListRepository @Inject constructor
         api.getVenues(
             "GRM3KZN0X2RQQP5XWMVUDVRKX4ZS1RYQ0HI4K1QUDQQIQUM3",
             "0W5I0U20MY433BFNHQ4AAHSGVZ02QHYVYGM0YT4OHOPGLL14",
-            location, 1000, "Coffee", "20180323"
+            location, "2000", "Coffee", "20180323"
         )
     }
 }
+
+

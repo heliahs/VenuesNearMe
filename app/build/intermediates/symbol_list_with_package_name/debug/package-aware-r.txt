@@ -1202,6 +1202,7 @@ color teal_200
 color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
+color text_color
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -1360,6 +1361,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen margin_default
 dimen material_clock_display_padding
 dimen material_clock_face_margin_top
 dimen material_clock_hand_center_dot_radius
@@ -1588,6 +1590,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_style_medium
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1727,6 +1730,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable loading_animation
+drawable loading_img
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1820,6 +1825,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_go_to_venues_list
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -1905,6 +1911,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id distance
 id dragDown
 id dragEnd
 id dragLeft
@@ -1978,6 +1985,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loading
 id masked
 id material_clock_display
 id material_clock_face
@@ -2032,6 +2040,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation
@@ -2068,6 +2077,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2181,6 +2191,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id venuesListFragment
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2270,6 +2281,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout first_page
+layout item_list
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2336,6 +2348,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout venues_fragment
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navigation
@@ -2376,7 +2389,6 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
-string click_on_button_to_get_current_location_output
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

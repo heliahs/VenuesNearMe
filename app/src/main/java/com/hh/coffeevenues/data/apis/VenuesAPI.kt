@@ -1,16 +1,20 @@
 package com.hh.coffeevenues.data.apis
 
+
 import com.hh.coffeevenues.data.models.VenuesResponse
-import retrofit2.http.Field
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface VenuesAPI {
-    @GET("v2/venues/explore")
-    suspend fun getVenues(@Field("client_id") clientID: String,
-                          @Field("client_secret") clientSecret: String,
-                          @Field("ll") location: String,
-                          @Field("radius") radius: Int,
-                          @Field("section") section: String,
-                          @Field("v") version: String,
+
+    @GET("venues/explore")
+    suspend fun getVenues(
+        @Query("client_id") clientID: String,
+        @Query("client_secret") clientSecret: String,
+        @Query("ll") location: String,
+        @Query("radius") radius: String,
+        @Query("section") section: String,
+        @Query("v") version: String
     ): VenuesResponse
+
 }
