@@ -37,48 +37,47 @@
 24-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:11:9-54
 25        android:supportsRtl="true"
 25-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:12:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.CoffeeVenues" >
-27-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:13:9-50
-28        <activity android:name="com.hh.coffeevenues.MainActivity" >
-28-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:9-20:20
-28-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:19-47
-29            <intent-filter>
-29-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:15:13-19:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:17-69
-30-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:17-77
-32-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:27-74
-33            </intent-filter>
-34        </activity>
-35        <activity
-35-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
-36            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-36-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
-37            android:exported="false"
-37-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
-38            android:label=""
-38-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
-39            android:theme="@style/EasyPermissions.Transparent" />
-39-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
-40        <activity
-40-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
-41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-41-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
-42            android:exported="false"
-42-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
-43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-43-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
-44
-45        <meta-data
-45-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
-46            android:name="com.google.android.gms.version"
-46-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
-47            android:value="@integer/google_play_services_version" />
-47-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
-48    </application>
-49
-50</manifest>
+26        android:theme="@style/Theme.CoffeeVenues" >
+26-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:13:9-50
+27        <activity android:name="com.hh.coffeevenues.MainActivity" >
+27-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:9-20:20
+27-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:19-47
+28            <intent-filter>
+28-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:15:13-19:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:17-69
+29-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:17-77
+31-->/Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+35            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+35-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+36            android:exported="false"
+36-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+37            android:label=""
+37-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+38            android:theme="@style/EasyPermissions.Transparent" />
+38-->[pub.devrel:easypermissions:3.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/75271e7e4fe93b106e444797c21085a5/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+39        <activity
+39-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+40-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-base:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/ff941f92dc4c87e333da79dd4e7ed608/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+43
+44        <meta-data
+44-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+45            android:name="com.google.android.gms.version"
+45-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+46            android:value="@integer/google_play_services_version" />
+46-->[com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+47    </application>
+48
+49</manifest>

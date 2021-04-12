@@ -3,9 +3,7 @@ package com.hh.coffeevenues
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.hh.coffeevenues.data.Resource
-import com.hh.coffeevenues.data.models.Meta
-import com.hh.coffeevenues.data.models.Venues
-import com.hh.coffeevenues.data.models.VenuesResponse
+import com.hh.coffeevenues.data.models.*
 import com.hh.coffeevenues.data.repositories.VenuesListRepository
 import com.hh.coffeevenues.ui.vanuesList.VenuesListViewModel
 import com.nhaarman.mockitokotlin2.mock
@@ -19,11 +17,17 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.mockito.Mockito.mock
+
 
 class VenuesListViewModelTest {
 
-/*
+    val location = Location(1000)
+    val venue = Venue("1",location,"costa" )
+    val itam = Item(venue)
+    val group = Group(items = listOf(itam))
+    val fackData = Response(listOf(group))
+
+    private val myLocation = "51.648520441313714,-0.179409587946961"
 
     private lateinit var viewModel: VenuesListViewModel
     private lateinit var repository: VenuesListRepository
@@ -43,7 +47,7 @@ class VenuesListViewModelTest {
         Dispatchers.setMain(mainThreadSurrogate)
         repository = mock()
         runBlocking {
-            whenever(repository.getVenues("10")).thenReturn(successResource)
+            whenever(repository.getVenues(myLocation)).thenReturn(successResource)
 
         }
         viewModel = VenuesListViewModel(repository)
@@ -61,14 +65,13 @@ class VenuesListViewModelTest {
     @Test
     fun `when GetVenues is called , then observer is updated with success`(): Unit = runBlocking {
         viewModel.venues.observeForever(observer)
-        viewModel.getVenues("10")
+        viewModel.getVenues(myLocation)
         delay(10)
-        verify(repository).getVenues("10")
+        verify(repository).getVenues(myLocation)
         verify(observer, timeout(50)).onChanged(Resource.Loading)
         verify(observer, timeout(50)).onChanged(successResource)
     }
 
-//val fackData = arrayOf(Venues)
-*/
+
 
 }
