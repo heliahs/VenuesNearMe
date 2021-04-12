@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] /Users/KK/.gradle/caches/transforms-2/files-2.1/0f4f5efa5b2275978c48f94ec616d9d4/databinding-adapters-4.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] /Users/KK/.gradle/caches/transforms-2/files-2.1/10a5ea4e6c9b8a617e36bbec50ddff5a/databinding-runtime-4.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/KK/.gradle/caches/transforms-2/files-2.1/f28b19668466c4a3d9a1663c86e6da5d/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/e552dae1b8d2070d3d8af4a76e075c53/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/076a9f9abbf7b57986ba269741c7bc47/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28] /Users/KK/.gradle/caches/transforms-2/files-2.1/35511429c7cdec921a826c564e913ace/jetified-dagger-lint-aar-2.28/AndroidManifest.xml:16:1-18:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:11-69
@@ -87,12 +87,16 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:4:5-79
 	android:name
 		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:4:22-76
-uses-permission#android.permission.INTERNET
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:5:5-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:6:5-21:19
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:7:5-22:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/9f74df4916716f0a37c77bd7837dae84/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/9f74df4916716f0a37c77bd7837dae84/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/KK/.gradle/caches/transforms-2/files-2.1/83848e93afac0ae0e52c9a709bcd17ad/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -116,33 +120,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/KK/.
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/KK/.gradle/caches/transforms-2/files-2.1/9e68ebf39dca2fba625f624711e26042/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:13:9-50
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:9-50
 	android:name
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:7:9-38
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:8:9-38
 activity#com.hh.coffeevenues.MainActivity
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml
@@ -304,8 +308,8 @@ ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/KK/.gradle/caches/transforms-2/files-2.1/3309bbd1dd8e1bb8813459a4f3027b46/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/KK/Desktop/Coffeevenues/app/src/main/AndroidManifest.xml:2:1-24:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE

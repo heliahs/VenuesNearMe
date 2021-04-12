@@ -9,7 +9,7 @@ import com.hh.coffeevenues.data.Resource
 import com.hh.coffeevenues.data.models.VenuesResponse
 import com.hh.coffeevenues.data.repositories.VenuesListRepository
 import kotlinx.coroutines.launch
-import okhttp3.ResponseBody
+
 
 
 class VenuesListViewModel @ViewModelInject constructor(

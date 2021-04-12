@@ -2,11 +2,8 @@ package com.hh.coffeevenues.ui.firstPape
 
 
 import android.Manifest
-import android.annotation.SuppressLint
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.location.Location
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
@@ -15,12 +12,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationRequest
+
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.tasks.CancellationTokenSource
-import com.google.android.gms.tasks.Task
 import com.google.android.material.snackbar.Snackbar
 import com.hh.coffeevenues.BuildConfig
 import com.hh.coffeevenues.R
@@ -29,16 +27,17 @@ import com.hh.coffeevenues.databinding.FirstPageBinding
 import com.hh.coffeevenues.other.Constants.REQUEST_FINE_LOCATION_PERMISSIONS_REQUEST_CODE
 import com.hh.coffeevenues.ui.hasPermission
 import com.hh.coffeevenues.ui.requestPermissionWithRationale
+import dagger.hilt.android.AndroidEntryPoint
 
 
 class FirstPageFragment : Fragment() {
 
     lateinit var binding: FirstPageBinding
-    private val fusedLocationClient: FusedLocationProviderClient by lazy {
-        LocationServices.getFusedLocationProviderClient(requireActivity())
-    }
+    private val viewModel by viewModels<FirstPageViewModel>()
 
-    private var cancellationTokenSource = CancellationTokenSource()
+
+
+   // private var cancellationTokenSource = CancellationTokenSource()
 
 
     private val fineLocationRationalSnackbar by lazy {
@@ -56,7 +55,7 @@ class FirstPageFragment : Fragment() {
 
     override fun onStop() {
         super.onStop()
-        cancellationTokenSource.cancel()
+       // cancellationTokenSource.cancel()
 
     }
     override fun onCreateView(
@@ -69,6 +68,11 @@ class FirstPageFragment : Fragment() {
         binding.getLocation.setOnClickListener {
             getLocation()
         }
+
+        viewModel.currentLocation.observe(viewLifecycleOwner, Observer {
+            this.findNavController()
+                .navigate(FirstPageFragmentDirections.actionGoToVenuesList(it))
+        })
         return binding.root
     }
 
@@ -104,7 +108,6 @@ class FirstPageFragment : Fragment() {
                         Snackbar.LENGTH_LONG
                     )
                         .setAction(R.string.settings) {
-                            // Build intent that displays the App settings screen.
                             val intent = Intent()
                             intent.action = Settings.ACTION_APPLICATION_DETAILS_SETTINGS
                             val uri = Uri.fromParts(
@@ -127,7 +130,7 @@ class FirstPageFragment : Fragment() {
             requireActivity().hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)
 
         if (permissionApproved) {
-            requestCurrentLocation()
+       viewModel.requestCurrentLocation()
         } else {
             requestPermissionWithRationale(
                 Manifest.permission.ACCESS_FINE_LOCATION,
@@ -138,7 +141,7 @@ class FirstPageFragment : Fragment() {
     }
 
     fun locationRequest() {
-        Log.d(TAG, "locationRequestOnClick()")
+       // Log.d(TAG, "locationRequestOnClick()")
 
         val permissionApproved =
             requireActivity().hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)
@@ -154,7 +157,7 @@ class FirstPageFragment : Fragment() {
     }
 
 
-    @SuppressLint("MissingPermission")
+  /*  @SuppressLint("MissingPermission")
     private fun requestCurrentLocation() {
         Log.d(TAG, "requestCurrentLocation()")
         if (requireActivity().hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)) {
@@ -181,7 +184,7 @@ class FirstPageFragment : Fragment() {
                 // logOutputToScreen(result)
             }
         }
-    }
+    }*/
 
 
 }

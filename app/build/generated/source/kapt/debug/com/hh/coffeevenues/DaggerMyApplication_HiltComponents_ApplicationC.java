@@ -209,7 +209,7 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
       }
 
       @Override
-      public void injectMainActivity(MainActivity arg0) {
+      public void injectMainActivity(MainActivity mainActivity) {
       }
 
       @Override
@@ -255,7 +255,7 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
         }
 
         @Override
-        public void injectVenuesListFragment(VenuesListFragment arg0) {
+        public void injectVenuesListFragment(VenuesListFragment venuesListFragment) {
         }
 
         @Override
